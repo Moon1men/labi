@@ -1,0 +1,12 @@
+import random
+number=random.randit(1,100)
+chislo=int(input"Введите число: "))
+step=1
+while chislo!=number:
+    if chislo>number:
+        print("Меньше")
+    else:
+        print("Больше")
+    chislo=int(input("Введите число снова: "))
+    step+=1
+ print("Вы угадали! Загадочное число",number,".""Вам понадобилось",step,"попыток")
